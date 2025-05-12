@@ -1,0 +1,16 @@
+/* variables.css */
+:root {
+  --color-bg: #1e1e2f;
+  --color-card: #2a2a40;
+  --color-border: #3c3c5c;
+  --color-text: #f0f0f0;
+  --color-accent: #5c9eff;
+  --color-accent-hover: #397eed;
+  --color-danger: #ff5c5c;
+
+  --font-size-base: 1.1rem;
+  --font-size-heading: 1.75rem;
+
+  --padding-base: 1rem;
+  --radius-base: 12px;
+}
