@@ -1,13 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Pharmacy Inventory</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main class="inventory">
+      <section class="inventory__form-section">
+        <h1 class="inventory__title">Pharmacy Inventory</h1>
+        <form class="inventory__form">
+          <input
+            type="text"
+            class="inventory__input inventory__input--name"
+            placeholder="Product Name"
+            required />
+          <input
+            type="text"
+            class="inventory__input inventory__input--manufacturer"
+            placeholder="Manufacturer"
+            required />
+          <input
+            type="date"
+            class="inventory__input inventory__input--expiration"
+            required />
+          <input
+            type="number"
+            class="inventory__input inventory__input--quantity"
+            placeholder="Quantity"
+            required />
+          <button type="submit" class="inventory__button">Add Medicine</button>
+        </form>
+      </section>
+      <section class="inventory__table-section">
+        <table class="inventory__table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Manufacturer</th>
+              <th>Expiration</th>
+              <th>Quantity</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody class="inventory__table-body"></tbody>
+        </table>
+      </section>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
