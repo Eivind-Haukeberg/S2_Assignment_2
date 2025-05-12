@@ -2,39 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/src/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pharmacy Inventory</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
   </head>
   <body>
-    <main class="inventory">
-      <section class="inventory__form-section">
-        <h1 class="inventory__title">Pharmacy Inventory</h1>
-        <form class="inventory__form">
+    <main class="pharmacy-inventory">
+      <section class="pharmacy-inventory__form-section">
+        <h1 class="pharmacy-inventory__title">Pharmacy Inventory Management</h1>
+        <form class="pharmacy-inventory__form">
           <input
             type="text"
-            class="inventory__input inventory__input--name"
+            class="pharmacy-inventory__input pharmacy-inventory__input--product-name"
             placeholder="Product Name"
             required />
           <input
             type="text"
-            class="inventory__input inventory__input--manufacturer"
+            class="pharmacy-inventory__input pharmacy-inventory__input--manufacturer"
             placeholder="Manufacturer"
             required />
           <input
             type="date"
-            class="inventory__input inventory__input--expiration"
+            class="pharmacy-inventory__input pharmacy-inventory__input--expiration-date"
             required />
           <input
             type="number"
-            class="inventory__input inventory__input--quantity"
+            class="pharmacy-inventory__input pharmacy-inventory__input--quantity"
             placeholder="Quantity"
             required />
-          <button type="submit" class="inventory__button">Add Medicine</button>
+          <button
+            type="submit"
+            class="pharmacy-inventory__button pharmacy-inventory__button--submit">
+            Add Medicine
+          </button>
         </form>
       </section>
-      <section class="inventory__table-section">
-        <table class="inventory__table">
+
+      <section class="pharmacy-inventory__table-section">
+        <table class="pharmacy-inventory__table">
           <thead>
             <tr>
               <th>ID</th>
@@ -45,7 +50,7 @@
               <th>Actions</th>
             </tr>
           </thead>
-          <tbody class="inventory__table-body"></tbody>
+          <tbody class="pharmacy-inventory__table-body"></tbody>
         </table>
       </section>
     </main>
