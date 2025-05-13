@@ -91,9 +91,11 @@ body {
 
 .pharmacy-inventory__button-edit,
 .pharmacy-inventory__button-delete {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  margin-right: 0.5rem;
   border: none;
   border-radius: var(--radius-base);
   cursor: pointer;
@@ -118,10 +120,6 @@ body {
   background-color: #d03e3e;
 }
 
-/* .pharmacy-inventory__table-section {
-  overflow-x: auto;
-} */
-
 /* Responsive Styles  */
 
 /* Tablet */
@@ -129,10 +127,6 @@ body {
   .pharmacy-inventory {
     margin: 1rem;
   }
-
-  /* .pharmacy-inventory__table-section {
-    overflow-x: auto;
-  } */
 
   .pharmacy-inventory__form-section,
   .pharmacy-inventory__table-section {
@@ -169,10 +163,6 @@ body {
     font-size: 1rem;
     padding: 0.75rem;
   }
-
-  /* .pharmacy-inventory__table-section {
-    overflow-x: auto;
-  } */
 
   .pharmacy-inventory__table {
     width: 700px;
