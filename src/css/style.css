@@ -22,6 +22,7 @@ body {
   margin-bottom: 2rem;
   border-radius: var(--radius-base);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  overflow-x: auto;
 }
 
 .pharmacy-inventory__title {
@@ -115,4 +116,65 @@ body {
 
 .pharmacy-inventory__button-delete:hover {
   background-color: #d03e3e;
+}
+
+/* .pharmacy-inventory__table-section {
+  overflow-x: auto;
+} */
+
+/* Responsive Styles  */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .pharmacy-inventory {
+    margin: 1rem;
+  }
+
+  /* .pharmacy-inventory__table-section {
+    overflow-x: auto;
+  } */
+
+  .pharmacy-inventory__form-section,
+  .pharmacy-inventory__table-section {
+    padding: 1.25rem;
+  }
+
+  .pharmacy-inventory__form {
+    grid-template-columns: 1fr;
+  }
+
+  .pharmacy-inventory__button {
+    width: 100%;
+  }
+
+  .pharmacy-inventory__table th,
+  .pharmacy-inventory__table td {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .pharmacy-inventory__form {
+    gap: 1rem;
+  }
+
+  .pharmacy-inventory__title {
+    font-size: 1.5rem;
+  }
+
+  .pharmacy-inventory__form input,
+  .pharmacy-inventory__button {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  /* .pharmacy-inventory__table-section {
+    overflow-x: auto;
+  } */
+
+  .pharmacy-inventory__table {
+    width: 700px;
+  }
 }
