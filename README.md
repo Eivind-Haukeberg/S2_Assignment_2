@@ -6,7 +6,7 @@ This project is built as part of the **FFU1200 Frontend Development** course. It
 
 ## 🚀 **Live Demo**
 
-👉 [View it on Netlify] (https://s2-assignment-2.netlify.app/).
+👉 [View it on Netlify](https://s2-assignment-2.netlify.app/)
 
 ## 💻 **Tech Used**
 
