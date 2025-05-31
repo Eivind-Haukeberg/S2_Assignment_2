@@ -120,6 +120,21 @@ body {
   background-color: #d03e3e;
 }
 
+.pharmacy-inventory__form-message {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  min-height: 1.25rem;
+}
+
+.pharmacy-inventory__form-message--error {
+  color: var(--color-danger);
+}
+
+.pharmacy-inventory__form-message--success {
+  color: var(--color-accent);
+}
+
 /* Responsive Styles  */
 
 /* Tablet */

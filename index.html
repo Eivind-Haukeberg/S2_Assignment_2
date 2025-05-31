@@ -10,7 +10,7 @@
     <main class="pharmacy-inventory">
       <section class="pharmacy-inventory__form-section">
         <h1 class="pharmacy-inventory__title">Pharmacy Inventory Management</h1>
-        <form class="pharmacy-inventory__form">
+        <form class="pharmacy-inventory__form" novalidate>
           <input
             type="text"
             class="pharmacy-inventory__input pharmacy-inventory__input--product-name"
@@ -35,6 +35,7 @@
             class="pharmacy-inventory__button pharmacy-inventory__button--submit">
             Add Medicine
           </button>
+          <p class="pharmacy-inventory__form-message" id="form-message"></p>
         </form>
       </section>
 
